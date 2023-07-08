@@ -1,0 +1,23 @@
+{
+  "name": "surfkit",
+  "version": "0.0.1-rc01",
+  "description": "Open source UI framework for use in SurfScape's websites and services",
+  "main": "main.css",
+  "files": [
+    "main.css",
+    "components/",
+    "utils/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surfscape/surfkit.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "ui",
+    "surfscape"
+  ],
+  "author": "SurfScape Team",
+  "license": "GPL-2.0"
+}

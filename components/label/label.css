@@ -1,0 +1,15 @@
+.label {
+  user-select: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.5em;
+  background: var(--clr--subtle--01);
+  padding: var(--spacing-02) var(--spacing-03);
+  border: var(--label--border) solid var(--clr--border-01);
+  border-radius: var(--label--border--radius);
+}
+
+.label--success {
+  background: var(--clr--success--sublte);
+  border-color: var(--clr--success);
+}

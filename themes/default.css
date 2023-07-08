@@ -1,0 +1,29 @@
+/*
+SurfKit Default Theme
+SurfScape Team
+Version: 0.0.1
+*/
+
+:root {
+  --clr--background: hsl(0, 0%, 97%);
+  --clr--text: hsl(0, 0%, 25%);
+  --clr--heading: hsl(0, 0%, 10%);
+  --clr--subtitle: hsla(0, 0%, 10%, 0.75);
+  --clr--subtle--01: hsl(0, 0%, 95%);
+  --clr--border-01: hsl(230, 0%, 80%);
+  --clr--border-02: hsl(230, 0%, 70%);
+  --clr--border-03: hsl(230, 0%, 60%);
+  --clr--border-04: hsl(230, 0%, 50%);
+  --clr--primary: hsl(212, 100%, 48%);
+  --clr--on--primary: #fff;
+  --clr--primary--hover: hsl(212, 100%, 44%);
+  --clr--primary--sublte: hsl(212, 100%, 40%, 0.1);
+  --clr--success: hsl(150, 80%, 40%);
+  --clr--on--success: #fff;
+  --clr--success--hover: hsl(150, 80%, 36%);
+  --clr--success--sublte: hsl(155, 100%, 40%, 0.1);
+  --clr--error: hsl(0, 90%, 55%);
+  --clr--on--error: #fff;
+  --clr--error--hover: hsl(0, 80%, 51%);
+  --clr--error--sublte: hsl(0, 100%, 40%, 0.1);
+}

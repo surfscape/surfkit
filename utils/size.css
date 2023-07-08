@@ -1,0 +1,31 @@
+:root {
+  /* general spacing vars (padding, margin) */
+  --spacing-01: 0.1rem;
+  --spacing-02: 0.2rem;
+  --spacing-03: 0.3rem;
+  --spacing-04: 0.4rem;
+  --spacing-05: 0.5rem;
+  --spacing-06: 0.6rem;
+  --spacing-07: 0.7rem;
+  --spacing-08: 0.8rem;
+  --spacing-09: 0.9rem;
+  --spacing-10: 1rem;
+  --spacing-11: 1.1rem;
+  --spacing-12: 1.2rem;
+  --spacing-13: 1.3rem;
+  --spacing-14: 1.4rem;
+  --spacing-15: 1.5rem;
+  --spacing-16: 1.6rem;
+  --spacing-17: 1.7rem;
+  --spacing-18: 1.8rem;
+  --spacing-19: 1.9rem;
+  --spacing-20: 2rem;
+  /* border vars */
+  --button--border: var(--spacing-01);
+  --alert--border: var(--spacing-01);
+  --label--border: var(--spacing-01);
+  /* border radius vars (buttons, cards, forms) */
+  --button--border--radius: var(--spacing-06);
+  --alert--border--radius: var(--spacing-06);
+  --label--border--radius: var(--spacing-05);
+}
