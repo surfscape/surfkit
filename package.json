@@ -3,21 +3,20 @@
   "version": "0.0.1-rc01",
   "description": "Open source UI framework for use in SurfScape's websites and services",
   "main": "main.css",
-  "files": [
-    "main.css",
-    "components/",
-    "utils/"
-  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/surfscape/surfkit.git"
   },
   "keywords": [
-    "css",
-    "framework",
-    "ui",
-    "surfscape"
+    "ui"
   ],
   "author": "SurfScape Team",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/surfscape/surfkit/issues"
+  },
+  "homepage": "https://github.com/surfscape/surfkit#readme"
 }
