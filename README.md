@@ -1,32 +1,52 @@
 # SurfKit
 Open source UI framework for use in SurfScape's websites and services
 
-## Roadmap
+## Information and use
 
-### Main
-- [x] - Basic support for components
-- [ ] - HTML examples
+If you'd ike to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
+
+## Roadmap - 09, July 2023
 
 ### Components
+- [x] - Support for components
 - [ ] - Button component
-  - [x] - Basic button
-  - [ ] - Button variants
+  - [x] - Default
+  - [ ] - Variants
+    - [x] - Primary
+    - [x] - Success
+    - [x] - Error
+    - [ ] - Warning
+    - [ ] - Dark
   - [ ] - Button group
-- [ ] - Card component
+- [ ] - Alert component
+  - [x] - Default
+  - [ ] - Variants
+    - [x] - Primary
+    - [x] - Success
+    - [x] - Error
+    - [ ] - Warning
+    - [ ] - Dark
 
 ### Layout
 - [x] - Rows/Columns (flexbox)
 - [ ] - Containers
+  - [ ] - Default container
+  - [ ] - Responsive container       
+  - [ ] - Variants
+    - [ ] - Desktop
+    - [ ] - Mobile
+    - [ ] - Tablet
   - [x] - Content container
-  - [ ] - Responsive container
-  - [ ] - Container variant (desktop, mobile, tablet)
 
 ### Content
-- [x] - Reset/Reboot module
+- [ ] - Reset/Reboot
+  - [x] - Box-Sizing
   - [x] - Native Font Stack
+  - [ ] - Responsive images
+  - [ ] - Inherit font
      
 ### Utils
-- [ ] - Variables support
+- [ ] - Variables support - REWORK NEEDED
   - [ ] - Size variables 
     - [x] - Spacing (0.1rem - 2rem)
     - [ ] - Border
@@ -34,5 +54,10 @@ Open source UI framework for use in SurfScape's websites and services
   - [ ] - Breakpoints (related to Containers)
 
 ### Themes
-- [ ] - Themes Support
+- [ ] - Support for themes
+  - [x] - Color schemes
+  - [ ] - Components variables
+
+### Add-ons
+- [ ] - Basic implementation
 
