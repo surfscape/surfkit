@@ -1,10 +1,5 @@
-/* 
-    SurfKit - Release Candidate
-    Open Source UI Framework
-    by: SurfScape Team
-    version: 0.0.1-rc03
-
-    NOTE: For help and guidence, check the README.md and the examples folder on how to use SurfKit
+ /*
+    Custom version for use in the documentation
 */
 
 /* utils */
@@ -13,9 +8,6 @@
 
 /* theme loader */
 @import url(./themes/default.css);
-
-/* content modules */
-@import url(./content/reset.css);
 
 /* layout modules */
 @import url(./layout/container.css);
