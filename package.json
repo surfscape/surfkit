@@ -1,22 +1,28 @@
 {
   "name": "surfkit",
-  "version": "0.0.1-rc03",
+  "version": "0.0.2-alpha",
   "description": "Open source UI framework for use in SurfScape's websites and services",
   "main": "main.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cleancss -o main.min.css \"src/**/*.css\" \"src/**/**/*.css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/surfscape/surfkit.git"
   },
   "keywords": [
-    "ui"
+    "ui",
+    "framework",
+    "css"
   ],
   "author": "SurfScape Team",
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/surfscape/surfkit/issues"
   },
-  "homepage": "https://github.com/surfscape/surfkit#readme"
+  "homepage": "https://github.com/surfscape/surfkit#readme",
+  "dependencies": {
+    "clean-css-cli": "^5.6.2"
+  }
 }

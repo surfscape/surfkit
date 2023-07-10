@@ -20,12 +20,14 @@
   --spacing-18: 1.8rem;
   --spacing-19: 1.9rem;
   --spacing-20: 2rem;
+  /* gaps */
+  --button--group--gap: var(--spacing-10);
   /* border vars */
   --button--border: var(--spacing-01);
   --alert--border: var(--spacing-01);
   --label--border: var(--spacing-01);
   /* border radius vars (buttons, cards, forms) */
-  --button--border--radius: var(--spacing-06);
-  --alert--border--radius: var(--spacing-06);
-  --label--border--radius: var(--spacing-05);
+  --button--border--radius: 0.375rem;
+  --alert--border--radius: 0.375rem;
+  --label--border--radius: 0.375rem;
 }

@@ -1,0 +1,74 @@
+@import url(button--group.css);
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  font-weight: 500;
+  color: var(--clr--text);
+  background: var(--clr--subtle--01);
+  padding: var(--spacing-04) var(--spacing-12);
+  outline: var(--button--border) solid var(--clr--border-01);
+  border-radius: var(--button--border--radius);
+  transition: var(--transition--button--action);
+}
+
+.button:active {
+  box-shadow: none;
+}
+
+.button:hover {
+  outline-color: var(--clr--border-04);
+}
+
+.button--primary {
+  outline: none;
+  background: var(--clr--primary);
+  color: var(--clr--on--primary);
+}
+
+.button--primary:hover {
+  background: var(--clr--primary--hover);
+  color: var(--clr--on--primary);
+}
+
+.button--success {
+  outline: none;
+  background: var(--clr--success);
+  color: var(--clr--on--success);
+}
+
+.button--success:hover {
+  background: var(--clr--success--hover);
+  color: var(--clr--on--primary);
+}
+
+.button--error {
+  outline: none;
+  background: var(--clr--error);
+  color: var(--clr--on--error);
+}
+
+.button--error:hover {
+  background: var(--clr--error--hover);
+  color: var(--clr--on--primary);
+}
+
+.button--warning {
+  outline: none;
+  background: var(--clr--warning);
+  color: var(--clr--on--warning);
+}
+
+.button--warning:hover {
+  background: var(--clr--warning--hover);
+  color: var(--clr--on--warning);
+}
+
+.button.disabled,
+.button:disabled {
+  pointer-events: none;
+  opacity: var(--atr--button--disabled--opacity);
+}

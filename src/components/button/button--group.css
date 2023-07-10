@@ -1,0 +1,6 @@
+.button--group {
+  display: flex;
+  align-items: center;
+  gap: var(--button--group--gap);
+  margin-bottom: var(--spacing-10);
+}
