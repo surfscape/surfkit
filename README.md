@@ -5,7 +5,7 @@ Open source UI framework for use in SurfScape's websites and services
 
 If you'd ike to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
 
-## Roadmap - 09, July 2023
+## Roadmap - 10, July 2023
 
 ### Components
 - [x] - Support for components
