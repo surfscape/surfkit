@@ -1,6 +1,10 @@
 # SurfKit
 Open source UI framework for use in SurfScape's websites and services
 
+## Installation
+
+Install using npm: `npm i surfkit`
+
 ## Information and use
 
 If you'd ike to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
