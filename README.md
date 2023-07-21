@@ -7,7 +7,7 @@ Install using npm: `npm i surfkit`
 
 ## Information and use
 
-If you'd ike to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
+If you'd like to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
 
 ## Roadmap - 10, July 2023
 
