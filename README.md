@@ -9,9 +9,11 @@ Install using npm: `npm i surfkit`
 
 If you'd like to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
 
-## Roadmap - 10, July 2023
+## Roadmap - 09, August 2023
 
 ### Components
+- [ ] - Move to [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
+- [ ] - Move to mobile first
 - [x] - Support for components
 - [ ] - Button component
   - [x] - Default
@@ -44,6 +46,7 @@ If you'd like to use SurfKit please check the documentation at: [https://surfkit
     - [ ] - Info
     - [ ] - Light
     - [ ] - Dark
+- [ ] - Tabs component
 - [x] - AppBar component 
 
 ### Layout
