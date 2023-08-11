@@ -9,23 +9,21 @@ Install using npm: `npm i surfkit`
 
 If you'd like to use SurfKit please check the documentation at: [https://surfkit.neocities.org/](https://surfkit.neocities.org/)
 
-## Roadmap - 09, August 2023
+## Roadmap - 12, August 2023
 
 ### Components
 - [ ] - Move to [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_Components)
 - [ ] - Move to mobile first
 - [x] - Support for components
-- [ ] - Button component
+- [x] - Button component
   - [x] - Default
-  - [ ] - Variants
-    - [x] - Primary
-    - [x] - Success
-    - [x] - Error
-    - [x] - Warning
-    - [ ] - Info
-    - [ ] - Light
-    - [ ] - Dark
-  - [x] - Button group
+  - [x] - Primary
+  - [x] - Size Variants
+    - [x] - Small
+    - [x] - Normal
+    - [x] - Large
+  - [x] - Support for ionicons
+  - [x] - Button group component
 - [ ] - Alert component
   - [x] - Default
   - [ ] - Variants
@@ -53,12 +51,13 @@ If you'd like to use SurfKit please check the documentation at: [https://surfkit
 - [x] - Rows/Columns (flexbox)
 - [ ] - Containers
   - [ ] - Default container
-  - [ ] - Responsive container       
+  - [ ] - Responsive container
+  - [x] - Section content (replacement for content container)
   - [ ] - Variants
     - [ ] - Desktop
     - [ ] - Mobile
     - [ ] - Tablet
-  - [x] - Content container
+  ~~- [x] - Content container~~
 
 ### Content
 - [x] - Base
@@ -69,11 +68,8 @@ If you'd like to use SurfKit please check the documentation at: [https://surfkit
   - [ ] - Inherit font
      
 ### Utils
-- [ ] - Variables support - REWORK NEEDED
-  - [ ] - Size variables 
-    - [x] - Spacing (0.1rem - 2rem)
-    - [ ] - Border
-    - [x] - Border radius
+- [ ] - Variables support
+  - [x] - Size variables
   - [ ] - Breakpoints (related to Containers)
 
 ### Themes
