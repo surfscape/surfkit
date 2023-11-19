@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/src.css" />
+  </head>
+  <body>
+    <header class="brand-header">
+      <brand-header-wrapper>
+        <h1>
+          <a href="/"><img src="Frame 1.png" alt="" /></a>
+        </h1>
+        <brand-header-menu>
+          <hr data-vertical />
+          <button
+            class="brand-header-menu-option"
+            aria-controls="mail-modal"
+            aria-expanded="false"
+          >
+            <img
+              class="brand-header-menu-option-icon"
+              src="https://icons.iconarchive.com/icons/sora-meliae/matrilineare/48/Status-dialog-question-icon.png"
+              alt=""
+            />
+            <span class="brand-header-menu-option-label">Mail</span>
+          </button>
+          <hr data-vertical />
+          <button
+            class="brand-header-menu-option"
+            aria-controls="help-modal"
+            aria-expanded="false"
+          >
+            <img
+              class="brand-header-menu-option-icon"
+              src="https://icons.iconarchive.com/icons/sora-meliae/matrilineare/48/Status-dialog-question-icon.png"
+              alt=""
+            />
+            <span class="brand-header-menu-option-label">Help</span>
+          </button>
+          <hr data-vertical />
+        </brand-header-menu>
+      </brand-header-wrapper>
+    </header>
+    <header-modal
+      id="mail-modal"
+      role="dialog"
+      aria-expanded="false"
+      aria-hidden="true"
+    >
+      <header-modal-content>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae
+        sit velit obcaecati rerum architecto, expedita nesciunt iure,
+        consectetur molestias quibusdam nostrum voluptatem inventore
+        consequuntur dolorum, harum recusandae animi itaque!
+      </header-modal-content>
+    </header-modal>
+    <header-modal
+      id="help-modal"
+      role="dialog"
+      aria-expanded="false"
+      aria-hidden="true"
+    >
+      Help modal Content
+    </header-modal>
+    <script type="module" src="/src/js/js.js"></script>
+    <div class="site-frame">
+      <main class="content-frame">
+        <h1>SurfKit</h1>
+      </main>
+    </div>
+  </body>
+</html>

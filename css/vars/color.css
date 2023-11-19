@@ -1,0 +1,11 @@
+:root {
+  /* brand-header*/
+  --text-color-brand-header: #fff;
+  --text-shadow-brand-header: 1px 1px 1px black;
+  --shadow-brand-header: 0px 0px 3px 1px rgb(32, 32, 32);
+  /* frames */
+  --site-frame-background: #121212;
+  /* hr */
+  --hr-light: #b7c0c9;
+  --hr-dark: #5d5f64;
+}

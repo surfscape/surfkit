@@ -1,0 +1,8 @@
+.content-frame {
+  margin: 0 auto;
+  background: white;
+  padding: 0.5rem;
+  max-width: var(--max-content-breakpoint);
+  min-height: max-content;
+  overflow: hidden;
+}

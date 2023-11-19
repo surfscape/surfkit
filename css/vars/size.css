@@ -1,0 +1,11 @@
+:root {
+  --base-font-size: 15px;
+  --max-content-breakpoint: 68rem;
+  --brand-header-padding: 0.75rem 1rem;
+  --brand-header-gap: 0.5rem;
+  --modal-breakpoint: 42.5rem;
+  --modal-padding: 0.5rem 0.5rem 0.75rem 0.5rem;
+  --site-frame-padding: 0 1rem;
+  /* z-index*/
+  --brand-header-z: 10;
+}
