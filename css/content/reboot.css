@@ -1,5 +1,8 @@
 html {
+<<<<<<< HEAD
   color: var(--base-text-color);
+=======
+>>>>>>> 1c667ea487da4c9ff2488694a6fd5153db79c036
   font-size: var(--base-font-size);
   font-family: var(--base-font-family);
 }
@@ -9,10 +12,13 @@ body {
   font-size: 1rem; /* make font size adaptive to the browser choice */
 }
 
+<<<<<<< HEAD
 a:hover {
   text-decoration: none;
 }
 
+=======
+>>>>>>> 1c667ea487da4c9ff2488694a6fd5153db79c036
 button {
   border: 0;
   background: none;

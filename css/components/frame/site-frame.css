@@ -1,9 +1,16 @@
 .site-frame {
+<<<<<<< HEAD
   /* fix modal backdrop hiding every element */
+=======
+>>>>>>> 1c667ea487da4c9ff2488694a6fd5153db79c036
   position: relative;
   display: block;
   background-color: var(--site-frame-background);
   padding: var(--site-frame-padding);
+<<<<<<< HEAD
   min-height: 100vh;
+=======
+  min-height: 100svh;
+>>>>>>> 1c667ea487da4c9ff2488694a6fd5153db79c036
   overflow: hidden;
 }
