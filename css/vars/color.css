@@ -1,0 +1,24 @@
+:root {
+  /* brand logo */
+  --brand-primary: hsl(213, 69%, 55%);
+  /* text colors */
+  --base-text-color: hsl(0, 0%, 96%);
+  --text-color-brand-header: var(--base-text-color);
+  /* background */
+  --site-frame-background: hsl(213, 40%, 8%);
+  --content-frame-background: hsl(213, 10%, 10%);
+  /* gradients */
+  --brand-header-background: linear-gradient(
+    to bottom,
+    hsl(213, 12%, 25%),
+    hsl(213, 12%, 42%)
+  );
+  --brand-header-detail-border: rgb(181, 181, 181);
+  /* shadows */
+  --text-shadow-brand-header: 1px 1px 1px black;
+  --shadow-brand-header: 0px 0px 3px 1px rgb(32, 32, 32);
+  --brand-header-menu-option-active-shadow: 0px 0px 1px #000000;
+  /* hr */
+  --hr-light: #b7c0c9;
+  --hr-dark: #5d5f64;
+}

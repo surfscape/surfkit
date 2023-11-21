@@ -1,0 +1,16 @@
+.content-frame {
+  margin: 0 auto;
+  padding: var(--content-frame-padding);
+  background: var(--content-frame-background);
+  max-width: var(--max-content-breakpoint);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content-frame :first-child {
+  margin-top: 0;
+}
+
+.content-frame :last-child {
+  margin-bottom: 0;
+}

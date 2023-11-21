@@ -1,0 +1,9 @@
+.site-frame {
+  /* fix modal backdrop hiding every element */
+  position: relative;
+  display: block;
+  background-color: var(--site-frame-background);
+  padding: var(--site-frame-padding);
+  min-height: 100vh;
+  overflow: hidden;
+}
