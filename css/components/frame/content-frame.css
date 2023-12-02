@@ -1,8 +1,9 @@
 .content-frame {
   margin: 0 auto;
-<<<<<<< HEAD
   padding: var(--content-frame-padding);
   background: var(--content-frame-background);
+  border: 0 solid var(--hr-light);
+  border-width: 0 1px 0 1px;
   max-width: var(--max-content-breakpoint);
   min-height: 100vh;
   overflow: hidden;
@@ -15,11 +16,3 @@
 .content-frame :last-child {
   margin-bottom: 0;
 }
-=======
-  background: white;
-  padding: 0.5rem;
-  max-width: var(--max-content-breakpoint);
-  min-height: max-content;
-  overflow: hidden;
-}
->>>>>>> 1c667ea487da4c9ff2488694a6fd5153db79c036
