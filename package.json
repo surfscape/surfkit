@@ -5,7 +5,7 @@
   "main": "/css/css.css",
   "scripts": {
     "build-css": "cleancss -o \"dist/css.min.css\" \"css/css.css\"",
-    "build-js": "uglifyjs -o \"dist/js.min.js\" \"js/js.js\"",
+    "build-js": "uglifyjs -o \"dist/js.min.js\" \"js/*.js\"",
     "build-dist": "npm run build-css && npm run build-js"
   },
   "repository": {
