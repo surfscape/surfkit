@@ -1,0 +1,21 @@
+.sk-toolbar {
+  display: flex;
+  font-size: 0.9em;
+  padding: var(--spacing-xsm) var(--spacing);
+}
+
+.sk-toolbar--nav {
+  display: flex;
+  gap: var(--spacing-xsm);
+  align-items: center;
+}
+
+.sk-toolbar > a {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.sk-toolbar-advert {
+  margin-left: auto;
+  width: fit-content;
+}
