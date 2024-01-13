@@ -1,8 +1,8 @@
 /* 
     SurfKit Alpha - CSS 
-    Open Source UI Framework
+    The SurfScape UI Framework
     by: SurfScape Team
-    version: 0.0.2-alpha
+    version: 0.0.4-alpha
     license: GPL-2.0
 
     NOTE: For help and guidence, check the README.md!
@@ -12,11 +12,8 @@
 @import url(./vars/size.css);
 @import url(./vars/color.css);
 @import url(./vars/type.css);
-@import url(./vars/transition.css);
-
 /* content */
 @import url(./content/reboot.css);
-@import url(./content/type.css);
 
 /* layout */
 @import url(./layout/utils.css);
