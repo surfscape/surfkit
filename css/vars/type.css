@@ -1,6 +1,7 @@
 :root {
   --base-font-family: var(--font-sans);
-  --font-sans: "Public Sans", sans-serig, var(--font-emoji);
+  --font-sans: system-ui, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, var(--font-emoji);
   --font-mono: "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New",
     monospace;
   --font-serif: "Constantia", "Palatino Linotype", "DejaVu Serif",
