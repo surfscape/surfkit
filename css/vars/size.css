@@ -1,6 +1,15 @@
 :root {
   /* font */
   --base-font-size: 15px;
+  /* general spacing units */
+  --spacing-xxsm: 0.25rem;
+  --spacing-xsm: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing: 1rem;
+  --spacing-md: 1.25rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xlg: 1.75rem;
+  --spacing-xxlg: 2rem;
   /* breakpoints */
   --max-content-breakpoint: 68rem;
   --modal-breakpoint: 42.5rem;
@@ -11,6 +20,11 @@
   --modal-padding: 0.5rem 0.5rem 0.75rem 0.5rem;
   --site-frame-padding: 0 0.5rem;
   --content-frame-padding: 1rem;
+  --button-padding: 0.25rem 1rem;
+  /* radius */
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 8px;
   /* gaps */
   --brand-header-gap: 0.5rem;
   --brand-header-menu-gap: 0.25rem;
