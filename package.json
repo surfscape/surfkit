@@ -1,6 +1,6 @@
 {
   "name": "surfkit",
-  "version": "0.0.3-alpha-rc04",
+  "version": "0.0.4-alpha",
   "description": "Open source UI framework for use in SurfScape's websites and services",
   "main": "/css/css.css",
   "scripts": {
