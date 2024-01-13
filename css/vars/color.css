@@ -1,12 +1,12 @@
 :root {
   /* brand logo */
-  --brand-primary: hsl(213, 69%, 55%);
+  --brand-primary: hsl(206, 69%, 58%);
   /* text colors */
   --base-text-color: hsl(0, 0%, 96%);
   --text-color-brand-header: var(--base-text-color);
   /* background */
-  --site-frame-background: hsl(213, 32%, 8%);
-  --content-frame-background: hsl(213, 15%, 12%);
+  --site-frame-background: hsl(205, 70%, 12%);
+  --content-frame-background: hsl(205, 50%, 18%);
   /* gradients */
   --brand-header-background: linear-gradient(
     to bottom,
