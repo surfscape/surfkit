@@ -42,7 +42,6 @@ hr[data-vertical] {
 }
 
 :focus {
-  border: 0;
-  outline: 2px dashed orange;
-  transition: 150ms scale ease-in;
+  outline-offset: 1px;
+  outline: 2px solid rgba(255, 255, 255, 0.75);
 }
