@@ -1,8 +1,8 @@
 {
   "name": "surfkit",
-  "version": "0.0.4-alpha",
-  "description": "Open source UI framework for use in SurfScape's websites and services",
-  "main": "/css/css.css",
+  "version": "0.0.1",
+  "description": "The UI framework and design language made by SurfScape.",
+  "main": "./css/index.css",
   "scripts": {
     "build-css": "cleancss -o \"dist/css.min.css\" \"css/css.css\"",
     "build-js": "uglifyjs -o \"dist/js.min.js\" \"js/*.js\"",
@@ -17,7 +17,7 @@
     "framework",
     "css"
   ],
-  "author": "SurfScape Team",
+  "author": "The SurfScape Team",
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/surfscape/surfkit/issues"

@@ -1,0 +1,23 @@
+/* 
+    SurfKit
+    The UI framework and design language made for SurfScape.
+    author: The SurfScape Team
+    license: GPL-2.0
+*/
+
+/* Do Not Remove */
+@import url(./base/reset.css);
+@import url(./base/typography.css);
+
+/* variables */
+@import url(./vars/spacing.css);
+@import url(./vars/colors.css);
+@import url(./vars/others.css);
+
+/* Better Defaults */
+@import url(./base/default.css);
+
+/* components */
+@import url(./components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file
+
+
