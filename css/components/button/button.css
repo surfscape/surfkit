@@ -1,70 +1,81 @@
-button,
-.sk-button {
-  display: inline-block;
-  --_btn-sk-bg: var(
-    --btn-sk-bg,
-    linear-gradient(to bottom, hsl(217, 5%, 30%), hsl(217, 5%, 20%))
-  );
-  padding: var(--button-padding);
-  border-radius: var(--radius-sm);
-  background: var(--_btn-sk-bg);
-  border: 1px solid hsla(0, 0%, 6%, 0.75);
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25),
-    inset 0px 1px rgba(255, 255, 255, 0.4),
-    inset -1px 0 rgba(255, 255, 255, 0.1), inset 0px -1px hsla(0, 0%, 100%, 0.1),
-    inset 1px 0 hsla(0, 0%, 100%, 0.1);
-  color: var(--clr-container-text);
-  text-shadow: var(--sh-smooth-text);
-  text-align: center;
+.sk-button,
+a.sk-button,
+button.sk-button {
+  --_sk-btn-bg: var(--sk-btn-bg, var(--sk-color-accent));
+  --_sk-btn-color: var(--sk-btn-color, var(--sk-color-on-accent));
+  --_sk-btn-border: var(--sk-btn-border, var(--sk_sk-btn-bg));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: var(--btn-padding);
+  background: var(--_sk-btn-bg);
+  color: var(--_sk-btn-color);
+  border: 1px solid var(--_sk-btn-border);
+  border-radius: var(--btn-radius);
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+  /* spacer for icons */
+  gap: var(--btn-spacer);
 }
 
-button:hover:not(:active),
-.sk-button:hover:not(:active) {
-  --_btn-sk-bg-hover: var(
-    --btn-sk-bg-hover,
-    linear-gradient(to bottom, hsl(217, 5%, 35%), hsl(217, 5%, 25%))
-  );
-  color: var(--clr-container-text);
-  background: var(--_btn-sk-bg-hover);
+.sk-button:hover {
+  --_sk-btn-bg-hover: var(--sk-btn-bg-hover, var(--sk-color-accent--state));
+  --_sk-btn-color-hover: var(--sk-btn-color-hover, var(--sk-color-on-accent));
+  --_sk-btn-border-hover: var(--sk-btn-border-hover, var(--sk-btn-bg-hover));
+  background: var(--_sk-btn-bg-hover);
+  color: var(--_sk-btn-color-hover);
+  border-color: var(--_sk-btn-border-hover);
 }
 
-button:active,
 .sk-button:active {
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5),
-    inset 0px 1px rgba(255, 255, 255, 0.4),
-    inset -1px 0 rgba(255, 255, 255, 0.1), inset 0px -1px hsla(0, 0%, 100%, 0.1),
-    inset 1px 0 hsla(0, 0%, 100%, 0.1);
+  scale: 0.975;
+  border-radius: calc(var(--btn-radius) / 2);
+  transition: var(--an-global-ease);
 }
 
-.sk-button-ocean {
-  --btn-sk-bg: linear-gradient(
-    to bottom,
-    hsl(216, 60%, 58%),
-    hsl(216, 80%, 30%)
-  );
-  --btn-sk-bg-hover: linear-gradient(
-    to bottom,
-    hsl(216, 60%, 63%),
-    hsl(216, 80%, 34%)
-  );
+.sk-button:focus,
+.sk-button:focus-within {
+  outline: 0.25em solid var(--sk-color-focus);
+  transition: var(--an-global-ease);
 }
 
-.sk-button-sunset {
-  --btn-sk-bg: linear-gradient(to bottom, hsl(18, 80%, 60%), hsl(18, 80%, 38%));
-  --btn-sk-bg-hover: linear-gradient(
-    to bottom,
-    hsl(18, 80%, 65%),
-    hsl(18, 80%, 44%)
-  );
+.sk-button--primary {
+  --sk-btn-bg: var(--sk-color-primary);
+  --sk-btn-color: var(--sk-color-on-primary);
+  --sk-btn-bg-hover: var(--sk-color-primary--state);
+  --sk-btn-color-hover: var(--sk-color-on-primary);
 }
 
-.sk-button-fire {
-  --btn-sk-bg: linear-gradient(to bottom, hsl(0, 80%, 56%), hsl(0, 64%, 39%));
-  --btn-sk-bg-hover: linear-gradient(
-    to bottom,
-    hsl(0, 80%, 62%),
-    hsl(0, 85%, 44%)
-  );
+.sk-button--tonal {
+  --sk-btn-bg: var(--sk-color-secondary);
+  --sk-btn-color: var(--sk-color-on-secondary);
+  --sk-btn-bg-hover: var(--sk-color-secondary--state);
+  --sk-btn-color-hover: var(--sk-btn-color);
+}
+
+.sk-button--stroke {
+  --sk-btn-bg: transparent;
+  --sk-btn-color: var(--sk-color-on-background);
+  --sk-btn-border: var(--sk-color-outline);
+  --sk-btn-bg-hover: var(--sk-color-surface);
+  --sk-btn-color-hover: var(--sk-color-on-surface);
+  --sk-btn-border-hover: var(--sk-color-outline);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sk-button--unlimited {
+  --sk-btn-bg: var(--sk-color-surface);
+  --sk-btn-color: var(--sk-color-on-surface);
+  --sk-btn-bg-hover: var(--sk-color-surface--state);
+  --sk-btn-color-hover: var(--sk-color-on-background);
+}
+
+.sk-button.sk-button--link {
+  --sk-btn-bg: transparent;
+  --sk-btn-color: var(--sk-color-primary);
+  --sk-btn-bg-hover: var(--sk-color-surface);
+  --sk-btn-color-hover: var(--sk-color-primary);
+  text-decoration: underline;
 }

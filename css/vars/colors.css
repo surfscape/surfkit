@@ -1,0 +1,59 @@
+/* 
+  SurfKit Default Light Theme
+  Based on Material You theme colors
+*/
+:root {
+  /* Base color (mainly used for defaults when a component does not have a variant applied) */
+  --sk-color-accent: hsl(0, 0%, 15%);
+  --sk-color-on-accent: hsl(0, 0%, 94%);
+  --sk-color-accent--state: hsl(0, 0%, 25%);
+  --sk-color-accent-container: hsl(240, 15%, 92%);
+  --sk-color-accent-on-container: hsl(240, 15%, 20%);
+  /* main color schemes */
+  --sk-color-primary: hsl(240, 84%, 48%);
+  --sk-color-on-primary: hsl(240, 100%, 96%);
+  --sk-color-primary--state: hsl(240, 86%, 58%);
+  --sk-color-primary-container: hsl(240, 100%, 90%);
+  --sk-color-on-primary-container: hsl(240, 98%, 20%);
+
+  --sk-color-secondary: hsl(269, 93%, 89%);
+  --sk-color-on-secondary: hsl(269, 96%, 20%);
+  --sk-color-secondary--state: hsl(269, 93%, 82%);
+  --sk-color-secondary-container: hsla(269, 66%, 58.4%);
+  --sk-color-on-secondary-container: hsla(269, 100%, 5.9%);
+
+  --sk-color-error: hsla(0, 75.5%, 41.6%, 1);
+  --sk-color-on-error: hsla(0, 0%, 100%, 1);
+  --sk-color-error-container: hsla(6, 100%, 92%, 1);
+  --sk-color-on-error-container: hsla(358, 100%, 12.7%, 1);
+
+  --sk-color-background: hsla(274, 100%, 98.6%, 1);
+  --sk-color-on-background: hsla(240, 15.6%, 12.5%, 1);
+  --sk-color-background--state: rgba(226, 221, 230, 0.75);
+
+  --sk-color-surface: hsl(210, 7%, 93%);
+  --sk-color-on-surface: hsla(240, 5.3%, 11.2%, 1);
+  --sk-color-surface--state: hsl(210, 7%, 89%);
+  --sk-color-surface-variant: hsla(225, 23.1%, 89.8%, 1);
+  --sk-color-on-surface-variant: hsla(218, 7.6%, 28.4%, 1);
+
+  --sk-color-outline: hsla(220, 5%, 47.5%, 1);
+  --sk-color-outline-variant: hsla(225, 11.1%, 78.8%, 1);
+  --sk-color-focus: hsla(219, 100%, 50%, 0.4);
+
+  --sk-color-shadow: hsla(0, 0%, 0%, 1);
+  --sk-color-scrim: hsla(0, 0%, 0%, 1);
+
+  --sk-color-inverse-surface: hsla(240, 3%, 19.4%, 1);
+  --sk-color-inverse-on-surface: hsla(285, 15.4%, 94.9%, 1);
+  --sk-color-inverse-primary: hsla(240, 100%, 87.8%, 1);
+
+  --sk-color-surface-dim: hsla(285, 5.6%, 85.9%, 1);
+  --sk-color-surface-bright: hsla(288, 55.6%, 98.2%, 1);
+  --sk-color-surface-container-lowest: hsla(0, 0%, 100%, 1);
+  --sk-color-surface-container-low: hsla(288, 23.8%, 95.9%, 1);
+  --sk-color-surface-container: hsla(285, 12.5%, 93.7%, 1);
+  --sk-color-surface-container-high: hsla(285, 9.1%, 91.4%, 1);
+  --sk-color-surface-container-highest: hsla(276, 9.1%, 89.2%, 1);
+  color-scheme: light;
+}

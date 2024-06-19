@@ -17,7 +17,9 @@
 /* Better Defaults */
 @import url(./base/default.css);
 
+/* layout */
+@import url(./layouts/wrapper.css);
+@import url(./layouts/grid.css);
+
 /* components */
-@import url(./components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file
-
-
+@import url(./components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file */

@@ -1,15 +1,6 @@
+/* SurfKit Components */
+
 @import url(./button/button.css);
+@import url(./button/button-container.css);
 
-@import url(./header/brand-header.css);
-
-@import url(./nav/nav.css);
-
-@import url(./frame/site-frame.css);
-@import url(./frame/page-container.css);
-@import url(./frame/content-frame.css);
-
-@import url(./modal/header-modal.css);
-
-@import url(./panel/panel.css);
-
-@import url(./toolbar/toolbar.css);
+@import url(./infobox/infobox.css);

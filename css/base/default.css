@@ -1,0 +1,6 @@
+html,
+body {
+  font: var(--ft-size) / 1.5 var(--font-stack);
+  background: var(--clr-sf__background);
+  color: var(--clr-tp__body);
+}

@@ -1,0 +1,10 @@
+.row {
+  display: grid;
+  gap: var(--_grid-row-spacer);
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--_grid-column-spacer);
+}
