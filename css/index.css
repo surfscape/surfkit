@@ -18,6 +18,7 @@
 @import url(./base/default.css);
 
 /* layout */
+@import url(./layouts/content.css);
 @import url(./layouts/wrapper.css);
 @import url(./layouts/grid.css);
 
