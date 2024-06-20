@@ -1,7 +1,9 @@
 :root {
   --ft-size: clamp(0.975rem, 0.975rem + 0.390625vw, 1rem);
-  --ft-line-height: 1.45em;
+  --ft-line-height: 1.45;
   --ft-line-height-base: 1em;
+  /* layouts */
+  --content-default-spacer: 1em;
   /* button sizes */
   --btn-padding: 0.3em 0.8em;
   --btn-radius: 0.4em;

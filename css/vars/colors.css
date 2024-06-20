@@ -7,13 +7,14 @@
   --sk-color-accent: hsl(0, 0%, 15%);
   --sk-color-on-accent: hsl(0, 0%, 94%);
   --sk-color-accent--state: hsl(0, 0%, 25%);
-  --sk-color-accent-container: hsl(240, 15%, 92%);
-  --sk-color-accent-on-container: hsl(240, 15%, 20%);
+  --sk-color-accent-container: hsl(240, 15%, 97%);
+  --sk-color-accent-container-outline: hsl(240, 15%, 75%);
+  --sk-color-on-accent-container: hsl(240, 15%, 20%);
   /* main color schemes */
   --sk-color-primary: hsl(240, 84%, 48%);
   --sk-color-on-primary: hsl(240, 100%, 96%);
   --sk-color-primary--state: hsl(240, 86%, 58%);
-  --sk-color-primary-container: hsl(240, 100%, 90%);
+  --sk-color-primary-container: hsl(240, 70%, 94%);
   --sk-color-on-primary-container: hsl(240, 98%, 20%);
 
   --sk-color-secondary: hsl(269, 93%, 89%);
