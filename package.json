@@ -1,10 +1,10 @@
 {
   "name": "surfkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The UI framework and design language made by SurfScape.",
   "main": "css/index.css",
   "scripts": {
-    "build-css": "cleancss -o \"dist/css.min.css\" \"css/css.css\"",
+    "build-css": "cleancss -o \"dist/surfkit.min.css\" \"css/index.css\"",
     "build-js": "uglifyjs -o \"dist/js.min.js\" \"js/*.js\"",
     "build-dist": "npm run build-css && npm run build-js"
   },

@@ -6,21 +6,21 @@
 */
 
 /* Do Not Remove */
-@import url(./base/reset.css);
-@import url(./base/typography.css);
+@import url(reset.css);
+@import url(typography.css);
 
 /* variables */
-@import url(./vars/spacing.css);
-@import url(./vars/colors.css);
-@import url(./vars/others.css);
+@import url(spacing.css);
+@import url(colors.css);
+@import url(others.css);
 
 /* Better Defaults */
-@import url(./base/default.css);
+@import url(default.css);
 
 /* layout */
-@import url(./layouts/content.css);
-@import url(./layouts/wrapper.css);
-@import url(./layouts/grid.css);
+@import url(content.css);
+@import url(wrapper.css);
+@import url(grid.css);
 
 /* components */
-@import url(./components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file */
+@import url(components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file */

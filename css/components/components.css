@@ -1,7 +1,7 @@
 /* SurfKit Components */
 
-@import url(./button/button.css);
-@import url(./button/button-container.css);
+@import url(button/button.css);
+@import url(button/button-container.css);
 
-@import url(./infobox/infobox.css);
-@import url(./infobox/infobox-utils.css);
+@import url(infobox/infobox.css);
+@import url(infobox/infobox-utils.css);
