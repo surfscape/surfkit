@@ -28,6 +28,11 @@
   --sk-color-error-container: hsla(6, 100%, 92%, 1);
   --sk-color-on-error-container: hsla(358, 100%, 12.7%, 1);
 
+  --sk-color-warning: hsla(39, 75.5%, 41.6%, 1);
+  --sk-color-on-warning: hsla(39, 0%, 100%, 1);
+  --sk-color-warning-container: hsla(39, 100%, 92%, 1);
+  --sk-color-on-warning-container: hsla(39, 100%, 12.7%, 1);
+
   --sk-color-background: hsla(274, 100%, 98.6%, 1);
   --sk-color-on-background: hsla(240, 15.6%, 12.5%, 1);
   --sk-color-background--state: rgba(226, 221, 230, 0.75);
