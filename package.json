@@ -2,7 +2,7 @@
   "name": "surfkit",
   "version": "0.0.1",
   "description": "The UI framework and design language made by SurfScape.",
-  "main": "./css/index.css",
+  "main": "css/index.css",
   "scripts": {
     "build-css": "cleancss -o \"dist/css.min.css\" \"css/css.css\"",
     "build-js": "uglifyjs -o \"dist/js.min.js\" \"js/*.js\"",
@@ -15,7 +15,8 @@
   "keywords": [
     "ui",
     "framework",
-    "css"
+    "css",
+    "surfscape"
   ],
   "author": "The SurfScape Team",
   "license": "GPL-2.0",
