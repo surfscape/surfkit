@@ -28,3 +28,9 @@ sk-infobox,
   --sk-infobox-color: var(--sk-color-on-error-container);
   --sk-infobox-stroke: var(--sk-color-error);
 }
+
+.sk-infobox--warning {
+  --sk-infobox-bg: var(--sk-color-warning-container);
+  --sk-infobox-color: var(--sk-color-on-warning-container);
+  --sk-infobox-stroke: var(--sk-color-warning);
+}

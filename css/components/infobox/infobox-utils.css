@@ -1,0 +1,9 @@
+.sk-infobox--extras {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.sk-infobox--extras ion-icon {
+  font-size: 1.5em;
+}
