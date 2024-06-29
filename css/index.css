@@ -6,7 +6,7 @@
 */
 
 /* Do Not Remove */
-@import url(reset.css);
+@import url(base/reset.css);
 @import url(typography.css);
 
 /* variables */
@@ -15,12 +15,12 @@
 @import url(others.css);
 
 /* Better Defaults */
-@import url(default.css);
+@import url(base/default.css);
 
 /* layout */
-@import url(content.css);
-@import url(wrapper.css);
-@import url(grid.css);
+@import url(layout/content.css);
+@import url(layout/grid.css);
+@import url(layout/wrapper.css);
 
 /* components */
 @import url(components/components.css); /* imports all the components, however you can remove components that are not needed trough the components.css file */
