@@ -1,0 +1,22 @@
+.wrapper,
+.wrapper-md,
+.wrapper-sm {
+  margin: 0 auto;
+  background: var(--sk-color-background);
+}
+
+.wrapper {
+  max-width: var(--bp-default);
+}
+
+.wrapper-md {
+  max-width: var(--bp-medium);
+}
+
+.wrapper-sm {
+  max-width: var(--bp-small);
+}
+
+.wrapper-dynamic {
+  max-width: 100%;
+}
