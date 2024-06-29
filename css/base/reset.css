@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+menu[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[class],
+ol[class],
+menu[class] {
+  padding: 0;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+canvas,
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+  font-style: italic;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+iframe {
+  border: none;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
