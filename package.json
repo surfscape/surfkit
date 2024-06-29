@@ -1,6 +1,6 @@
 {
   "name": "surfkit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The UI framework and design language made by SurfScape.",
   "main": "css/index.css",
   "scripts": {
