@@ -1,0 +1,17 @@
+.sk-content > * + * {
+  --_sk-content-spacer: var(--sk-content-spacer, var(--content-default-spacer));
+  --_sk-content-line-height: var(
+    --sk-content-line-height,
+    var(--content-default-line-height)
+  );
+  margin-top: var(--_sk-content-spacer);
+  line-height: var(--_sk-content-line-height);
+}
+
+.sk-content--sm {
+  --sk-content-spacer: 0.75em;
+}
+
+.sk-content--xsm {
+  --sk-content-spacer: 0.5em;
+}
