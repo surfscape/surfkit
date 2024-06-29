@@ -3,6 +3,8 @@
   Based on Material You theme colors
 */
 :root {
+  --sk-color-tp-heading: hsl(0, 0%, 10%);
+  --sk-color-tp-body: hsl(0, 0%, 20%);
   /* Base color (mainly used for defaults when a component does not have a variant applied) */
   --sk-color-accent: hsl(0, 0%, 15%);
   --sk-color-on-accent: hsl(0, 0%, 94%);
@@ -19,7 +21,7 @@
 
   --sk-color-secondary: hsl(269, 93%, 89%);
   --sk-color-on-secondary: hsl(269, 96%, 20%);
-  --sk-color-secondary--state: hsl(269, 93%, 82%);
+  --sk-color-secondary--state: hsl(269, 93%, 85%);
   --sk-color-secondary-container: hsla(269, 66%, 58.4%);
   --sk-color-on-secondary-container: hsla(269, 100%, 5.9%);
 
@@ -37,7 +39,7 @@
   --sk-color-on-background: hsla(240, 15.6%, 12.5%, 1);
   --sk-color-background--state: rgba(226, 221, 230, 0.75);
 
-  --sk-color-surface: hsl(210, 7%, 93%);
+  --sk-color-surface: hsl(210, 7%, 92%);
   --sk-color-on-surface: hsla(240, 5.3%, 11.2%, 1);
   --sk-color-surface--state: hsl(210, 7%, 89%);
   --sk-color-surface-variant: hsla(225, 23.1%, 89.8%, 1);
@@ -54,12 +56,8 @@
   --sk-color-inverse-on-surface: hsla(285, 15.4%, 94.9%, 1);
   --sk-color-inverse-primary: hsla(240, 100%, 87.8%, 1);
 
-  --sk-color-surface-dim: hsla(285, 5.6%, 85.9%, 1);
-  --sk-color-surface-bright: hsla(288, 55.6%, 98.2%, 1);
-  --sk-color-surface-container-lowest: hsla(0, 0%, 100%, 1);
-  --sk-color-surface-container-low: hsla(288, 23.8%, 95.9%, 1);
-  --sk-color-surface-container: hsla(285, 12.5%, 93.7%, 1);
-  --sk-color-surface-container-high: hsla(285, 9.1%, 91.4%, 1);
-  --sk-color-surface-container-highest: hsla(276, 9.1%, 89.2%, 1);
+  --sk-color-background: hsl(210, 10%, 98%);
+  --sk-color-background-dim: hsl(210, 6%, 94%);
+
   color-scheme: light;
 }
