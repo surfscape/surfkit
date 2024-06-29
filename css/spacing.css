@@ -4,18 +4,19 @@
   --ft-line-height-base: 1em;
   /* layouts */
   --content-default-spacer: 1em;
+  --content-default-line-height: 1.5;
   /* button sizes */
   --btn-padding: 0.3em 0.8em;
   --btn-radius: 0.5em;
   --btn-spacer: 0.75em;
+  /* button container */
+  --btn-container-spacer: 0.5em;
   /* infobox sizes */
   --infobox-ft-size: 0.95rem;
   --infobox-padding: 0.6em 1em;
   --infobox-radius: 0.8em;
   --infobox-spacer: 0.75em;
-
-  --btn-container-spacer: 0.5em;
-
+  /* breakpoints */
   --bp-default: 960px;
   --bp-medium: 860px;
   --bp-small: 720px;
