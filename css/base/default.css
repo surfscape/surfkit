@@ -1,0 +1,57 @@
+body {
+  font-family: var(--font-stack);
+  font-size: var(--ft-size);
+  line-height: var(--ft-line-height);
+  background: var(--sk-color-background-dim);
+  color: var(--sk-color-tp-body);
+}
+
+a {
+  color: var(--sk-color-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 0.125em;
+}
+
+a:hover {
+  color: var(--sk-color-tp-body);
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--sk-color-outline);
+}
+
+blockquote {
+  padding: 0.25em 0.25em 0.25em 1em;
+  background: var(--sk-color-surface);
+  border-left: 0.25em solid var(--sk-color-outline);
+}
+
+summary {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid var(--sk-color-outline-variant);
+  overflow-x: auto;
+  font-size: 0.875em;
+  width: 100%;
+}
+
+thead,
+tfoot {
+  background-color: var(--sk-color-surface);
+  color: var(--sk-color-tp-heading);
+}
+
+thead th {
+  border: 1px solid var(--sk-color-outline-variant);
+  padding: 0.5em;
+}
+
+tbody td {
+  text-align: center;
+  border: 1px solid var(--sk-color-outline-variant);
+  padding: 0.25em;
+}
