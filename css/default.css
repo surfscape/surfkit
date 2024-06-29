@@ -1,8 +1,0 @@
-html,
-body {
-  font-family: var(--font-stack);
-  font-size: var(--ft-size);
-  line-height: var(--ft-line-height);
-  background: var(--clr-sf__background);
-  color: var(--clr-tp__body);
-}
