@@ -8,3 +8,26 @@
 :root {
   --font-stack: "Geist", "Inter", system-ui, sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--sk-color-tp-heading);
+}
+
+h1:has(ion-icon),
+h2:has(ion-icon),
+h3:has(ion-icon),
+h4:has(ion-icon) {
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+strong {
+  font-weight: 700;
+}
