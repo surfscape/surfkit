@@ -2,7 +2,7 @@ body {
   font-family: var(--font-stack);
   font-size: var(--ft-size);
   line-height: var(--ft-line-height);
-  background: var(--sk-color-background-dim);
+  background: var(--sk-color-background);
   color: var(--sk-color-tp-body);
 }
 
@@ -13,6 +13,7 @@ a {
 }
 
 a:hover {
+  text-decoration: none;
   color: var(--sk-color-tp-body);
 }
 
@@ -54,4 +55,8 @@ tbody td {
   text-align: center;
   border: 1px solid var(--sk-color-outline-variant);
   padding: 0.25em;
+}
+
+.table-responsive {
+  overflow: auto;
 }
