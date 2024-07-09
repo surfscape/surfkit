@@ -1,0 +1,4 @@
+.sk-accordion-list {
+    display: grid;
+    gap: 0.25em;
+}

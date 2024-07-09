@@ -1,0 +1,14 @@
+.sk-badge {
+    --_sk-badge-bg: var(--sk-btn-bg, var(--sk-color-surface));
+    --_sk-badge-color: var(--sk-btn-color, var(--sk-color-on-surface));
+    --_sk-badge-border: var(--sk-btn-border, var(--sk-color-surface));
+    font-size: 0.98rem;
+    line-height: 1;
+    font-weight: normal;
+    border-radius: 2em;
+    padding: 0.45em 0.725em;
+    width: fit-content;
+    background: var(--_sk-badge-bg);
+    color: var(--_sk-badge-color);
+    border: 1px solid var(--_sk-badge-border);
+}

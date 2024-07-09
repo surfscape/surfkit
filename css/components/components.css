@@ -1,7 +1,12 @@
 /* SurfKit Components */
+@import url(accordion/accordion.css);
 
 @import url(button/button.css);
 @import url(button/button-container.css);
 
 @import url(infobox/infobox.css);
-@import url(infobox/infobox-utils.css);
+@import url(infobox/infobox-extended.css);
+
+@import url(badge/badge.css);
+
+
