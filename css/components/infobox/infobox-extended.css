@@ -1,0 +1,14 @@
+.sk-infobox--extended {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5em;
+}
+
+.sk-infobox--extended ion-icon {
+  font-size: 1.5em;
+}
+
+.sk-infobox--extended .icon {
+  width: 1.5em;
+  height: 1.5em;
+}
