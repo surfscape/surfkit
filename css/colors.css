@@ -48,7 +48,7 @@
   --sk-color-outline: hsl(0, 0%, 85%);
   --sk-color-focus: hsla(299, 100%, 50%, 0.45);
 
-  --sk-color-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --sk-color-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
 
   --sk-color-inverse-surface: hsla(240, 3%, 19.4%, 1);
   --sk-color-inverse-on-surface: hsla(285, 15.4%, 94.9%, 1);

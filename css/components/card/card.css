@@ -1,0 +1,6 @@
+.sk-card {
+    padding: 0.75rem;
+    background: var(--sk-color-surface);
+    border-radius: 0.5rem;
+    box-shadow: var(--sk-color-shadow);
+}
