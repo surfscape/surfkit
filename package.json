@@ -1,6 +1,6 @@
 {
   "name": "surfkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The UI framework and design language made by SurfScape.",
   "main": "css/index.css",
   "scripts": {
@@ -18,7 +18,7 @@
     "css",
     "surfscape"
   ],
-  "author": "The SurfScape Team",
+  "author": "SurfScape Team",
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/surfscape/surfkit/issues"
