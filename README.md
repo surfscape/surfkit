@@ -1,4 +1,7 @@
-<h1 align="center">SurfKit</h1>
+<h1 align="center">SurfKit [DEPRECATED]</h1>
+
+> [!IMPORTANT]  
+> SurfKit is deprecated, use [Steel](https://github.com/surfscape/steel) as an alternative instead!
 
 The UI framework and design language made by SurfScape.
 
